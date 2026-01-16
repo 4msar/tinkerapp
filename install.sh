@@ -5,10 +5,7 @@
 temp_dir=$(mktemp -d)
 
 # download the latest version of the build from the build folder
-curl -L -o $temp_dir/phpcli https://github.com/4msar/tinkerapp/releases/latest/download/phpcli.tar.gz
-
-# extract the build
-tar -xzf $temp_dir/phpcli.tar.gz -C $temp_dir
+curl -L -o $temp_dir/phpcli https://github.com/4msar/tinkerapp/raw/refs/heads/main/builds/cli
 
 # move the build to the home directory
 mv $temp_dir/phpcli $HOME/.local/bin/phpcli

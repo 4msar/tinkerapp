@@ -12,7 +12,7 @@
 ## Installation
 
 ```bash
-curl -sSL https://github.com/4msar/tinkerapp/releases/latest/download/install.sh | bash
+curl -sSL https://github.com/4msar/tinkerapp/raw/refs/heads/main/install.sh | bash
 ```
 
 ## Usage
